@@ -1,0 +1,67 @@
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container-login100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #9053c7;
+}
+
+.wrap-login100 {
+    padding: 177px 90px 33px 85px;
+  }
+
+  .wrap-login100 {
+    padding: 100px 80px 33px 80px;
+  }
+
+  .wrap-login100 {
+    padding: 100px 15px 33px 15px;
+  }
+
+  .wrap-login100 {
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 177px 130px 33px 95px;
+  }
+
+.login100-pic {
+    width: 316px;
+  }
+  
+  .login100-pic img {
+    max-width: 100%;
+  }
+
+  .login100-pic {
+    width: 35%;
+  }
+
+  .login100-pic {
+    display: none;
+  }
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
