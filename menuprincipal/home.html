@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<title>HOME</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="cssi/pags/css/main.css" />
 <body style="background-color: #0a0e27;">
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-right redtext" style="display:none;right:0;" id="rightMenu" style="background-color: #2d3466;">
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right redtext" style="display:none;right:0;" id="rightMenu" style="display:none" id="mySidebar">
+  
   <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button><br><br>
   <a href="pags/lanches/lanches.html" class="w3-bar-item w3-button">Lanches</a>
   <a href="pags/almo/almo.html" class="w3-bar-item w3-button">Almocos</a>
   <a href="pags/bebidas/bebidas.html" class="w3-bar-item w3-button">Bebidas</a>
   <a href="pags/sobremesas/sobremesas.html" class="w3-bar-item w3-button">Sobremesas</a>
   <a href="pags/suporte/suporte.html" class="w3-bar-item w3-button">Suporte</a>
+
 </div>
-
-
-
-<!-- 
-<a href="pags/lanches/lanches.html"
-<a href="pags/almo/almo.html"
-<a href="pags/bebidas/bebidas.html"
-<a href="pags/sobremesas/sobremesas.html"
-<a href="pags/suporte/suporte.html"
--->
 
 <div class="w3-teal">
   <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
-  <div class="w3-container">
+  <div class="w3-container" style="text-align: center;">
     
-    <h1>Pizzaria yui</h1>
+    <font class="h3" face="Impact" size="7"> EMPLOYER TECH </font>
   </div>
 </div>
-
-<div class="w3-container">
+<div class="square">
+  <div class="block">
+      
+      <div class="centered caixa1" style="text-align: center;">
+          <h5>hamburguer, pizza...</h5>
+      </div>
+      
+  </div>
 </div>
-     
+  
 <script>
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
@@ -42,7 +40,8 @@ function openRightMenu() {
 function closeRightMenu() {
   document.getElementById("rightMenu").style.display = "none";
 }
+
 </script>
-     
+
 </body>
 </html>
