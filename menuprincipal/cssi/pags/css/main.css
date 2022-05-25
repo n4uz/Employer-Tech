@@ -101,10 +101,20 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 .redtext {color: rgb(255, 255, 255);}
-.square{width: 48%; height: 0; padding-bottom: 48%; margin: 1%; text-align: right; }
-.block:before {content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -0.25em;}
-.centered{display: inline-block; width: 80%; background: #222; color: #FFF}
-.caixa1{border-radius: 20px;}
-.h3 {text-shadow: 0.0em 0.8em #333}
-.ew{width: 1%; height: auto; margin: 1; text-align: left; background-color: #4e5ca6;}
-	
+.block:before {content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -0.25em; text-align: right;}
+.centered{display: inline-block; width: 48%; text-align: right; background: #222; color: #FFF}
+.caixa1{border-radius: 20px; text-align: right;}
+.h1 {text-shadow: 0.0em 0.8em #5360a2}
+.ew{width: 1%; height: auto; margin: 1px; text-align: left; background-color: #4e5ca6;}
+.centraliza{width: 800px; margin: 0px auto;}
+.h2{color: #9aa8f1;}
+.container {display: flex;flex-wrap: wrap;justify-content: center;}
+.btn-text-top {background-color: #f5f6fa;border: 1px solid rgba(255, 255, 255, .1);padding: 15px 50px 15px 30px;border-radius: 20px;width: 100%!important; height: 42px; font-weight: 300; color: #8795a2;}
+.btn-buscar-top {width: 20px!important;height: 22px;background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat; cursor: pointer!important; border: none; transform: translateY(-50%); padding: 0;  }
+/*<div class="container">
+  <form class="form-busca-site" action="busca.php">
+    <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
+    <div><button class="btn-buscar-top" type="submit"></button></div>
+  </form>
+</div>
+*/
