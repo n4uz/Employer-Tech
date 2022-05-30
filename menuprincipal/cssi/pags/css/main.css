@@ -119,7 +119,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   border: 1px solid rgba(255, 255, 255, .1);
   padding: 15px 50px 15px 30px;
   border-radius: 20px;
-  width: 100%!important;
+  width: 750px!important;
   height: 42px;
   font-weight: 300;
   color: #8795a2;
@@ -128,19 +128,57 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .btn-buscar-top {
   width: 20px!important;
   height: 22px;
-  background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+  background: url(images/ovo-removebg-preview.png) no-repeat;
   cursor: pointer!important;
   border: none;
   transform: translateY(-50%);
   padding: 0;
   position: relative;
   top: -20px; 
-  left: 250px;
+  left: 715px;
   }
-/*<div class="container">
-  <form class="form-busca-site" action="busca.php">
-    <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
-    <div><button class="btn-buscar-top" type="submit"></button></div>
-  </form>
-</div>
-*/
+
+.row {
+  display: flex;
+  position: absolute;
+  left: 65px;
+  align-items: center;
+}
+
+.row1 {
+  border-radius: 10%;
+  display: flex;
+  position: absolute;
+  left: 438px;
+  align-items: center;
+
+}
+
+.row2 {
+  border-radius: 10%;
+  display: flex;
+  position: absolute;
+  left: 438px;
+  align-items: center;
+
+}
+
+.card {
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 20px;
+  width: 300px;
+  transition: all 0.3s ease-out;
+}
+ 
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.green {
+  border-left: 4px solid #3bb54a;
+  border-radius: 10%;
+}
+
+.color{ background-color: #FFF;}
