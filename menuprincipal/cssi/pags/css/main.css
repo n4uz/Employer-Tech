@@ -1,7 +1,7 @@
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+html{text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
 
 
@@ -113,6 +113,14 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.h3 {
+  font-size: 71px;
+}
+
+.h4{
+  font-size: 12px;
+}
     
 .btn-text-top {
   background-color: #222;
@@ -128,7 +136,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .btn-buscar-top {
   width: 20px!important;
   height: 22px;
-  background: url(images/ovo-removebg-preview.png) no-repeat;
+  background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
   cursor: pointer!important;
   border: none;
   transform: translateY(-50%);
