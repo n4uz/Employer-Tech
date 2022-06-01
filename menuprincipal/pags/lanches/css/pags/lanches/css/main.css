@@ -1,0 +1,22 @@
+.h1{
+    width: 560px;
+    height: 83px;
+    left: 1px;
+    top: 12px;
+    position: relative;
+    background-color: #4E5CA6;
+    justify-content: center;
+}
+.h2{
+    font-size: 55px;
+    color: #9aa8f1;
+   
+}
+.b{
+    background-color: #0a0e27;
+}
+.h3{
+    text-shadow: 0.0em 0.8em #273755;
+    left: px;
+    top: px;
+}
