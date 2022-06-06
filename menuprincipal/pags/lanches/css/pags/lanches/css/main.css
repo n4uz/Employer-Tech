@@ -8,7 +8,7 @@
     justify-content: center;
 }
 .h2{
-    font-size: 55px;
+    font-size: 51px;
     color: #9aa8f1;
 
 }
@@ -63,10 +63,20 @@ text-align: 50px;
 }
 .font{
     color: white;
-    font-size: 38px;
+    font-size: 28px;
     font-family: Helvetica;
     position: relative;
+    top: 25px;
+    left: 10px;
 }
+
+.font1{
+    position: relative;
+    top: 2px;
+    left: -80px;
+}
+
+
 
 .img{
   width: 30px!important;
@@ -84,7 +94,7 @@ text-align: 50px;
 .img1{
     width: 30px!important;
     height: 30px;
-    background: url() no-repeat;
+    background: url(https://i.pinimg.com/236x/a8/62/50/a862501139c4198e4cfc4783d1095597.jpg) no-repeat;
     cursor: pointer!important;
     border: none;
     transform: translateY(-50%);
