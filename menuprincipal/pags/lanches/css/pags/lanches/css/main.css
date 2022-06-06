@@ -1,6 +1,6 @@
 .h1{
     width: 560px;
-    height: 83px;
+    height: 63px;
     left: 1px;
     top: 12px;
     position: relative;
@@ -10,13 +10,86 @@
 .h2{
     font-size: 55px;
     color: #9aa8f1;
-   
+
 }
 .b{
     background-color: #0a0e27;
 }
 .h3{
-    text-shadow: 0.0em 0.8em #273755;
+    text-shadow: -0.0em -0.1em #273755;
     left: px;
     top: px;
+}
+.h4{
+    display:inline-block;
+    transform:scale(2,1); 
+}
+
+.h5{
+text-align: 50px;
+}
+
+.box1{
+    width: 420px; /*largura*/  
+    height: 80px; /*altura*/
+    top: 142px;
+    left: 51px;
+    position: relative;
+    background-color: #4E5CA6;
+}
+.box2{
+    width: 420px; /*largura*/  
+    height: 80px; /*altura*/
+    top: 44px;
+    left: 694px;
+    position: relative;
+    background-color: #4E5CA6;    
+}
+.box3{
+    width: 420px; /*largura*/  
+    height: 80px; /*altura*/
+    top: 127px;
+    left: 51px;
+    position: relative;
+    background-color: #4E5CA6;  
+}
+.box4{
+    width: 420px; /*largura*/  
+    height: 80px; /*altura*/
+    top: 44px;
+    left: 694px;
+    position: relative;
+    background-color: #4E5CA6;  
+}
+.font{
+    color: white;
+    font-size: 38px;
+    font-family: Helvetica;
+    position: relative;
+}
+
+.img{
+  width: 30px!important;
+  height: 30px;
+  background: url(https://th.bing.com/th/id/R.031749998ff117ae971a6e62c66b45a5?rik=gDvtbIuqE8djUw&riu=http%3a%2f%2f4vector.com%2fi%2ffree-vector-x-icon-clip-art_117159_X_Icon_clip_art_hight.png&ehk=PWgHpmglBjs%2b9Vks0v%2fYvW5aH6cdHfZ1%2fVFqroVJGI4%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+  cursor: pointer!important;
+  border: none;
+  transform: translateY(-50%);
+  padding: 0;
+  position: relative;
+  top: -354px; 
+  left: 1223px;
+}
+
+.img1{
+    width: 30px!important;
+    height: 30px;
+    background: url() no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -354px; 
+    left: 1223px;
 }
