@@ -177,20 +177,20 @@ color: rgb(255, 255, 255);
 .btn-buscar-top {
   width: 20px!important;
   height: 22px;
-  background: url(https://drive.google.com/file/d/1oeHlMBxNlKQXvuGghahsnujCRJrjVkXd/view) no-repeat;
+  background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
   cursor: pointer!important;
   border: none;
   transform: translateY(-50%);
   padding: 0;
   position: relative;
   top: -20px; 
-  left: 715px;
+  left: 1050px;
   }
 
 .row {
   display: flex;
   position: absolute;
-  left: 65px;
+  left: 347px;
   align-items: center;
 }
 
@@ -223,6 +223,8 @@ color: rgb(255, 255, 255);
   float: right;
   max-width: 64px;
   max-height: 64px;
+  left: px;
+  top: px;
 }
 
 .green {
