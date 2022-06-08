@@ -20,11 +20,7 @@
   <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
   <div class="w3-container" style="text-align: center;">
     
-<<<<<<< HEAD
     <font class="h1 h2 h3" face="Impact"> EMPLOYER TECH </font>
-=======
-    <font class="h1 h2 h3" face="Impact" size="7" > EMPLOYER TECH </font>
->>>>>>> e4fac35382e7542048a7bc597be89c97d4c7ea5c
   </div>
 </div><br><br><br><br><br><br>
 
@@ -36,21 +32,12 @@
       <button class="btn-buscar-top" type="submit"></button>
     </div>
   </form>
-<<<<<<< HEAD
 </div><br><br><br><br><br><br><br>
 
 <div class="row">
   <div class="card green color">
     <font style="font-size: 11px;"><b>HAMBURGUER COM REFRIEGERANTE</b></font>
     <img class="image" src="images/ovo-removebg-preview.png" alt="ovo" />
-=======
-</div><br>
-<div class="row">
-  <div class="card green color">
-    <font class="h4" face="" style="text-align: center;"> <b>HAMBURGUER COM REFRIGERENTE</b> </font>
-    <img class="image" src="https://th.bing.com/th/id/R.6fb889f5a34322bb8fcba2981666864d?rik=NErBd9Acg3Xvjg&pid=ImgRaw&r=0" alt="" />  
-    <p class="h5">Um harbumguer de duas carnes, queijo, bacon, tomates e alfaces junto de uma coca-cola de 350ml</p>
->>>>>>> e4fac35382e7542048a7bc597be89c97d4c7ea5c
   </div>
 
   <div class="row1">
