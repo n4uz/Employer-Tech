@@ -22,8 +22,7 @@
 						</div>
 					</header>
 
-			<h1 class="y"><a href="/cadastro/index.html">Cadastrar-se</a></h1>
-
+			<h1 class="y"><a href="cadastro/index.php">Cadastrar-se</a></h1>
 
 		<div id="main">
 				<article id="elements">
