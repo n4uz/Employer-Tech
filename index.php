@@ -17,11 +17,13 @@
 						</div>
 						<div class="">
 							<div class="">
-								<h1><a href="menuprincipal/home.html">Bem vindo</a></h1>
-							
+								<h1><a href="menuprincipal/home.html" >Bem vindo</a></h1>
 							</div>
 						</div>
 					</header>
+
+			<h1 class="y"><a href="/cadastro/index.html">Cadastrar-se</a></h1>
+
 
 		<div id="main">
 				<article id="elements">
@@ -35,9 +37,8 @@
 					</article>
 		</div>
 
-					<footer id="footer">
 						<p class="copyright"> clique em "BEM VINDO" para prosseguir.</p>
-					</footer>
+
 
 			</div>
 

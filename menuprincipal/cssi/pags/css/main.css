@@ -202,3 +202,35 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .color{ background-color: #5360A2;}
+
+.y{
+  position: relative;
+  top: 20px;
+  left: 200px;
+  font-size: 50px;
+  font-family: px;
+
+}
+.y1{
+  position: relative;
+  top: 2000px;
+  left: 20px;
+  font-size: 20px;
+  font-family: px;
+  
+}
+.imagefundo{
+  -moz-transform: scale(1.125);
+  -webkit-transform: scale(1.125);
+  -ms-transform: scale(1.125);
+  transform: scale(1.125);
+  -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
+  -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
+  -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
+  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+  background-image: url("../../images/fundo\ home.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
