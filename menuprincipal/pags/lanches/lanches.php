@@ -37,12 +37,13 @@
 <div class="">
     <div class="box4">
         <div class="font">
-            <p face=""><a href="/menuprincipal/pags/lanches/pastel/pastel.html">PASTEL</a></p>
+            <p face=""><a href="/menuprincipal/pags/lanches/pastel/">PASTEL</a></p>
         </div>
     </div>  
 </div>
 
 <a href="/employertech/menuprincipal/home.html"><img src="https://i.pinimg.com/564x/71/a7/a6/71a7a6270ac6f699a53d19445ab84b00.jpg" alt="" class="img"></a>
+    
 
 
 </body>

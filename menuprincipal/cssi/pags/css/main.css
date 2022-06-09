@@ -214,8 +214,13 @@ color: rgb(255, 255, 255);
 
 .card {
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+<<<<<<< HEAD
   padding: 10px;
   width: 300px;
+=======
+  padding: 50px;
+  width: 351px;
+>>>>>>> f78fba9249066577afb352713a337a1feee4eaca
   transition: all 0.3s ease-out;
 
 }
@@ -239,3 +244,35 @@ color: rgb(255, 255, 255);
 }
 
 .color{ background-color: #5360A2;}
+
+.y{
+  position: relative;
+  top: 20px;
+  left: 200px;
+  font-size: 50px;
+  font-family: px;
+
+}
+.y1{
+  position: relative;
+  top: 2000px;
+  left: 20px;
+  font-size: 20px;
+  font-family: px;
+  
+}
+.imagefundo{
+  -moz-transform: scale(1.125);
+  -webkit-transform: scale(1.125);
+  -ms-transform: scale(1.125);
+  transform: scale(1.125);
+  -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
+  -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
+  -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
+  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+  background-image: url("../../images/fundo\ home.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
