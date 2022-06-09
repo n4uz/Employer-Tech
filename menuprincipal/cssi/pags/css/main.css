@@ -162,25 +162,6 @@ color: rgb(255, 255, 255);
   flex-wrap: wrap;
   justify-content: center;
 }
-<<<<<<< HEAD
-=======
-
-.h3 {
-  font-size: 71px;
-  text-align: center;
-}
-
-.h4{
-  font-size: 12px;
-  left: 0px;
-  top: 12px;
-}
-
-.h5{
-  font-size: 10px;
-  text-align: center;
-}
->>>>>>> e4fac35382e7542048a7bc597be89c97d4c7ea5c
     
 .btn-text-top {
   background-color: #222;
@@ -233,19 +214,13 @@ color: rgb(255, 255, 255);
 
 .card {
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-<<<<<<< HEAD
-  padding: 50px;
-  width: 351px;
-=======
   padding: 10px;
   width: 300px;
->>>>>>> e4fac35382e7542048a7bc597be89c97d4c7ea5c
   transition: all 0.3s ease-out;
 
 }
  
 .image {
-<<<<<<< HEAD
   float: right;
   max-width: 64px;
   max-height: 64px;
@@ -255,13 +230,6 @@ color: rgb(255, 255, 255);
 
 .green {
   border-left: 4px solid #3bb54a;
-=======
-  position: relative;
-  max-width: 250px;
-  max-height: 250px;
-  left: 5px;
-  top: 6px;
->>>>>>> e4fac35382e7542048a7bc597be89c97d4c7ea5c
   border-radius: 10%;
 }
 
