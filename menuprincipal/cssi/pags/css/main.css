@@ -214,13 +214,8 @@ color: rgb(255, 255, 255);
 
 .card {
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-<<<<<<< HEAD
   padding: 10px;
   width: 300px;
-=======
-  padding: 50px;
-  width: 351px;
->>>>>>> f78fba9249066577afb352713a337a1feee4eaca
   transition: all 0.3s ease-out;
 
 }

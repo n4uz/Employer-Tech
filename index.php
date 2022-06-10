@@ -10,19 +10,19 @@
 	</head>
 	<body class="is-preload">
 		
-		<div id="wrapper">
+	<div id="wrapper">
 			<header id="">
 				<div class=""> 	
 							<span class=""></span>
 						</div>
 						<div class="">
 							<div class="">
-								<h1><a href="menuprincipal/home.html" >Bem vindo</a></h1>
+								<H1><a href="menuprincipal/home.html">BEM VINDO</a></H1>
 							</div>
 						</div>
 					</header>
 
-			<h1 class="y"><a href="cadastro/index.php">Cadastrar-se</a></h1>
+			<p class="y"><a href="cadastro/index.php">Cadastrar-se</a></p>
 
 		<div id="main">
 				<article id="elements">
@@ -36,7 +36,7 @@
 					</article>
 		</div>
 
-						<p class="copyright"> clique em "BEM VINDO" para prosseguir.</p>
+						<p class="copyright"> Clique em "BEM VINDO" para prosseguir.</p>
 
 
 			</div>
