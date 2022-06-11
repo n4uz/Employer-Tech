@@ -23,6 +23,7 @@
 					</header>
 
 			<p class="y"><a href="cadastro/index.php">Cadastrar-se</a></p>
+			<p class="y1"><a href="cadastro/index.php">Cadastrar-se</a></p>
 
 		<div id="main">
 				<article id="elements">
