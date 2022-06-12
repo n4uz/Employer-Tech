@@ -4,13 +4,13 @@
 var dados = []
 
 function PopulaTabela () {
-    if (Array.isArray(dados)){
+    if (Array.isArray(dados))  {
 
-        $("#tblDados span").php("")
+        $("#tblDados tbody").html("")
 
         dados.forEach(function (item){
             //TEMPLATES STRING
-            $("#tblDados span").append(`<tr>
+            $("#tblDados tbody").append(`<tr>
                 <td>${item.ID}</td>
                 <td>${item.Nome}</td>
                 <td>${item.E-mail}</td>
