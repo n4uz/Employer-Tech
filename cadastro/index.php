@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,6 +63,11 @@
 		})(window, document);
 	</script>
 </head>
+
+<?php
+	if(isset($_SESSION['msg']))
+	echo
+?>
 
 <body style="background-color: #999999;">
 	<div class="limiter">
