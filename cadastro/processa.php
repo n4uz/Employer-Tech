@@ -14,7 +14,7 @@ echo "Cpf: $cpf <br>";
 echo "Senha: $senha <br>";
 echo "Localidade: $localidade <br>";
 
-$result_usuario = "INSERT INTO employertech (nome, email, cpf, senha, localidade, created) 
+$result_usuario = "INSERT INTO tbldados (nome, email, cpf, senha, localidade, created) 
 VALUES ('$nome', '$email', '$cpf', '$senha', '$localidade', NOW())";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
