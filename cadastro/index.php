@@ -66,7 +66,8 @@ session_start();
 
 <?php
 	if(isset($_SESSION['msg']))
-	echo
+	echo $_SESSION['msg'];
+	unset($_SESSION['msg']);
 ?>
 
 <body style="background-color: #999999;">
