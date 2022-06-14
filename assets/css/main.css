@@ -1788,10 +1788,10 @@ body.is-preload #footer {
 
 .y1 {
 	position: relative;
-	top: 2000px;
+	top: 20px;
 	left: 20px;
-	font-size: 2px;
-	font-family: px;
+	font-size: 20px;
+	font-family: sans-serif
 
 }
 
