@@ -21,12 +21,12 @@
 			</div>
 			<div class="">
 				<div class="">
-					<H1><a href="menuprincipal/home.php">BEM VINDO</a></H1>
+					<H1 class="y2"><a href="menuprincipal/home.php">BEM VINDO</a></H1>
 				</div>
 			</div>
 		</header>
 
-		<p class="y"><a href="cadastro/index.php">Cadastrar-se</a></p>
+		<p class="y"><a href="cadastro/index.php">Cadastrar-se	</a></p>
 		<p class="y1"><a href="login/index.php">Login</a></p>
 
 		<div id="main">
