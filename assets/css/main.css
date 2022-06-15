@@ -1758,7 +1758,7 @@ body.is-preload #header .content .inner {
 	font-size: 0.6rem;
 	opacity: 0.75;
 	margin-bottom: 0;
-	top: -330px;
+	top: -244px;
 	left: 0px;
 }
 
@@ -1780,16 +1780,16 @@ body.is-preload #footer {
 
 .y {
 	position: relative;
-	top: 200px;
-	left: -160px;
-	font-size: 15px;
-	font-family: sans-serif
+	top: 287px;
+	left: -240px;
+	font-size: 20px;
+	font-family: sans-serif 
 }
 
 .y1 {
 	position: relative;
-	top: 20px;
-	left: 20px;
+	top: 138px;
+	left: 189px;
 	font-size: 20px;
 	font-family: sans-serif
 
@@ -1797,8 +1797,8 @@ body.is-preload #footer {
 
 .y2 {
 	position: relative;
-	top: 20px;
-	left: 200px;
-	font-size: 50px;
+	top: 139px;
+	left: 0px;
+	font-size: 38px;
 
 }
