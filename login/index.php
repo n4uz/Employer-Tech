@@ -1,3 +1,7 @@
+<?php
+include_once("conexao.php")
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -31,7 +35,7 @@
 					<img src="images/logotipo.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" method="POST" action="">
 					<span class="login100-form-title">
 						 Login
 					</span>
@@ -52,8 +56,8 @@
 						</span>
 					</div>
 					
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn"> <!-- /employertech/  !-->
+					<div class="container-login100-form-btn" >
+						<button class="login100-form-btn" > <!-- /employertech/  !-->
 							Login
 						</button>
 					</div>
@@ -97,6 +101,30 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+
+	<?php
+		$SendPesqUser = filter_input(INPUT_POST, 'SendPesqUser', FILTER_SANITIZE_STRING);
+		if($SendPesqUser){
+			$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+			$senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
+			$result_usuario = "SELECT * FROM tbldados WHERE email, senha LIKE '%$email%, %$senha%'  ";
+			$resultado_usuario = mysqli_query($conn, $result_usuario);
+			while($row_usuario = mysqli_fetch_assoc($resultado_usuario)){
+				echo "E-mail: " . $row_usuario['email'] . "<br>";
+				echo "Senha: " . $row_usuario['senha'] . "<br>";
+			}
+		}
+
+		
+if(mysqli_insert_id($conn)) {
+    $_SESSION['msg'] = "<p style = 'color: green'> Usuário cadastrado com sucesso </p> ";
+    header("Location: /employertech/");
+}else{
+    $_SESSION['msg'] = "<p style = 'color: red'> Usuário não foi cadastrado com sucesso </p> ";
+    header("Location: index.php");
+}
+
+		?>
 
 </body>
 </html>

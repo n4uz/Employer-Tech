@@ -1,3 +1,7 @@
+<?php
+session_start()
+?>
+
 <!DOCTYPE HTML>
 
 <html>
@@ -12,7 +16,8 @@
 	</noscript>
 </head>
 
-<body class="is-preload">
+<body class="is-preload body">
+	
 
 	<div id="wrapper">
 		<header id="">
@@ -41,7 +46,7 @@
 			</article>
 		</div>
 
-		<p class="copyright"> Clique em "BEM VINDO" para prosseguir.    colocar o banco de dados no git hub</p>
+		<p class="copyright"> Clique em "BEM VINDO" para prosseguir.</p>
 
 
 	</div>
