@@ -2,7 +2,7 @@
 session_start();
 include_once("conexao.php");
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
-$result_usuario = "SELECT * FROM usuarios WHERE id = '$id'";
+$result_usuario = "SELECT * FROM tbldados WHERE id = '$id'";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 $row_usuario = mysqli_fetch_assoc($resultado_usuario);
 ?>
@@ -13,8 +13,8 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
 		<title>CRUD - Editar</title>		
 	</head>
 	<body>
-		<a href="cad_usuario.php">Cadastrar</a><br>
-		<a href="index.php">Listar</a><br>
+		<a href="index.php">Cadastrar</a><br>
+		<a href="listar.php">Listar</a><br>
 		<h1>Editar Usuário</h1>
 		<?php
 		if(isset($_SESSION['msg'])){

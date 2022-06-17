@@ -36,7 +36,10 @@ include_once("conexao.php");
 			echo "E-mail: " . $row_usuario['email'] . "<br>";
 			echo "cpf: " . $row_usuario['cpf'] . "<br>";
 			echo "senha: " . $row_usuario['senha'] . "<br>";
-			echo "localidade: " . $row_usuario['localidade'] . "<br><hr>";
+			echo "localidade: " . $row_usuario['localidade'] . "<br>";
+			echo "<a href='edit_usuario.php?id=" . $row_usuario['id'] . "'>Editar<a/><br>";
+			echo "<a href='proc_apagar_usuario.php?id=" . $row_usuario['id'] . "'>Excluir<a/><br><hr>";
+
 		}
 		
 		//Paginção - Somar a quantidade de usuários
