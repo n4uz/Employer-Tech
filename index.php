@@ -41,7 +41,7 @@
 			</article>
 		</div>
 
-		<p class="copyright"> Clique em "BEM VINDO" para prosseguir.</p>
+		<p class="copyright"> Clique em "BEM VINDO" para prosseguir.    colocar o banco de dados no git hub</p>
 
 
 	</div>
