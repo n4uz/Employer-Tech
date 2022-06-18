@@ -44,13 +44,35 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
 			background-color: #f2f2f2;
 			padding: 20px;
 		}
+
+		form {
+			justify-content: center;
+		}
+
+		.backcolor {
+			background: -webkit-linear-gradient(-180deg, #3996E4, #241698);
+		}
+
+		.box{
+			width: 800px;
+			height: 530px;
+			position: relative;
+			left: 528px;
+			top: 10px;
+		}
+
+		.text{
+			color: #ccc;
+			font-family: sans-serif;
+			font-size: 44px;
+		}
 	</style>
 </head>
 
-<body>
+<body class="backcolor">
 	<a href="index.php">Cadastrar</a><br>
 	<a href="listar.php">Listar</a><br>
-	<h1>Editar Usuário</h1>
+	<h1 style="text-align: center;" class="text">Editar Usuário</h1>
 	<?php
 	if (isset($_SESSION['msg'])) {
 		echo $_SESSION['msg'];
@@ -58,22 +80,26 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
 	}
 	?>
 
-	<div>
-		<form action="/action_page.php">
-			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+	<div class="box">
+		<form method="POST" action="proc_edit_usuario.php">
+			<input type="hidden" name="id" value="<?php echo $row_usuario['id']; ?>">
 
-			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<label for="fname">Nome: </label>
+			<input type="text" name="nome" placeholder="Digite o nome completo" value="<?php echo $row_usuario['nome']; ?>"><br><br>
 
-			<label for="country">Country</label>
-			<select id="country" name="country">
-				<option value="australia">Australia</option>
-				<option value="canada">Canada</option>
-				<option value="usa">USA</option>
-			</select>
+			<label for="fname">E-mail: </label>
+			<input type="text" name="email" placeholder="Digite o seu melhor e-mail" value="<?php echo $row_usuario['email']; ?>"><br><br>
 
-			<input type="submit" value="Submit">
+			<label for="fname">CPF: </label>
+			<input type="text" name="cpf" placeholder="Digite o seu CPF" value="<?php echo $row_usuario['cpf']; ?>"><br><br>
+
+			<label for="fname">Senha: </label>
+			<input type="text" name="senha" placeholder="Digite uma senha" value="<?php echo $row_usuario['senha']; ?>"><br><br>
+
+			<label for="fname">Localidade: </label>
+			<input type="text" name="localidade" placeholder="Escolha uma lugar em que mais se aproxima da sua localidade" value="<?php echo $row_usuario['localidade']; ?>"><br><br>
+
+			<input type="submit" value="Confirmar">
 		</form>
 	</div>
 
@@ -100,4 +126,11 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
 		<input type="email" name="localidade" placeholder="Escolha uma lugar em que mais se aproxima da sua localidade" value="<?php echo $row_usuario['localidade']; ?>"><br><br>
 
 		<input type="submit" value="Editar">
-	</form>!-->
+	</form>
+	
+	<label for="country">Country</label>
+			<select id="country" name="country">
+				<option value="australia">Australia</option>
+				<option value="canada">Canada</option>
+				<option value="usa">USA</option>
+			</select>!-->
