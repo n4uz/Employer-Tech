@@ -256,18 +256,93 @@ color: rgb(255, 255, 255);
   font-family: px;
   
 }
-.imagefundo{
-  -moz-transform: scale(1.125);
-  -webkit-transform: scale(1.125);
-  -ms-transform: scale(1.125);
-  transform: scale(1.125);
-  -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-  -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-  -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("../../images/fundo\ home.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
+
+body.is-article-visible #footer {
+	-moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+	-moz-filter: blur(0.1rem);
+	-webkit-filter: blur(0.1rem);
+	-ms-filter: blur(0.1rem);
+	filter: blur(0.1rem);
+	opacity: 0;
+}
+
+body.is-preload #footer {
+	opacity: 0;
+}
+
+body.is-article-visible #header {
+	-moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+	-moz-filter: blur(0.1rem);
+	-webkit-filter: blur(0.1rem);
+	-ms-filter: blur(0.1rem);
+	filter: blur(0.1rem);
+	opacity: 0;
+}
+
+body.is-preload #header {
+	-moz-filter: blur(0.125rem);
+	-webkit-filter: blur(0.125rem);
+	-ms-filter: blur(0.125rem);
+	filter: blur(0.125rem);
+}
+
+body.is-preload #header>* {
+	opacity: 0;
+}
+
+body.is-preload #header .content .inner {
+	max-height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	opacity: 0;
+}
+
+#bg:after {
+	-moz-transform: scale(1.125);
+	-webkit-transform: scale(1.125);
+	-ms-transform: scale(1.125);
+	transform: scale(1.125);
+	-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
+	-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
+	-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
+	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+	background-image: url("../../images/casa.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+
+body.is-article-visible #bg:after {
+	-moz-transform: scale(1.0825);
+	-webkit-transform: scale(1.0825);
+	-ms-transform: scale(1.0825);
+	transform: scale(1.0825);
+	-moz-filter: blur(0.2rem);
+	-webkit-filter: blur(0.2rem);
+	-ms-filter: blur(0.2rem);
+	filter: blur(0.2rem);
+}
+
+body.is-preload #bg:before {
+	background-color: #000000;
+}
+
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
+	-moz-animation: none !important;
+	-webkit-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+	-moz-transition: none !important;
+	-webkit-transition: none !important;
+	-ms-transition: none !important;
+	transition: none !important;
 }

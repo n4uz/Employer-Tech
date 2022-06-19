@@ -21,7 +21,7 @@ $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 if(mysqli_affected_rows($conn)){
 	$_SESSION['msg'] = "<p style='color:green;'>Usuário editado com sucesso</p>";
-	header("Location: listar.php");
+	header("Location: /employer-tech/login/index.php");
 }else{
 	$_SESSION['msg'] = "<p style='color:red;'>Usuário não foi editado com sucesso</p>";
 	header("Location: editar.php?id=$id");

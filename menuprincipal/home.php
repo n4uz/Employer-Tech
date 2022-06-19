@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="cssi/pags/css/main.css" />
 
-<body style="background-color: #0a0e27;">
+<body style="background-color: #0a0e27;" class="is-preload body">
   <div class="w3-sidebar w3-bar-block w3-card w3-animate-right redtext" style="display:none;right:0;" id="rightMenu" style="display:none" id="mySidebar">
 
     <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button><br><br>

@@ -14,6 +14,7 @@ session_start()
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+
 </head>
 
 <body class="is-preload body">
@@ -32,7 +33,7 @@ session_start()
 		</header>
 
 		<p class="y"><a href="cadastro/index.php">Cadastrar-se	</a></p>
-		<p class="y1"><a href="login/index.php">Login</a></p>
+		<button><p class="y1"><a href="login/index.php">Login</a></p></button>
 
 		<div id="main">
 			<article id="elements">

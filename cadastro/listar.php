@@ -6,12 +6,69 @@ include_once("conexao.php");
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>CRUD - Listar</title>		
+		<title>CRUD - Listar</title>	
+		
+		<style>
+					input[type=text],
+		select {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+
+		input[type=submit] {
+			width: 100%;
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+
+		div {
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+
+		form {
+			justify-content: center;
+		}
+
+		.backcolor {
+			background: -webkit-linear-gradient(-180deg, #3996E4, #241698);
+		}
+
+		.box{
+			width: 800px;
+			height: 530px;
+			position: relative;
+			left: 528px;
+			top: 10px;
+		}
+
+		.text{
+			color: #ccc;
+			font-family: sans-serif;
+			font-size: 44px;
+		}
+		</style>
 	</head>
-	<body>
-		<a href="index.php">Cadastrar</a><br>
+	<body class="backcolor">
+		<a href="index.php" type="button" class="box1">Cadastrar</a><br>
 		<a href="listar.php">Listar</a><br>
-		<h1>Listar Usuário</h1>
+		<h1 class="text" style="text-align: center;">Listar Usuário</h1>
+<div class="box">
 		<?php
 		if(isset($_SESSION['msg'])){
 			echo $_SESSION['msg'];
@@ -41,6 +98,7 @@ include_once("conexao.php");
 			echo "<a href='proc_apagar_usuario.php?id=" . $row_usuario['id'] . "'>Excluir<a/><br><hr>";
 
 		}
+
 		
 		//Paginção - Somar a quantidade de usuários
 		$result_pg = "SELECT COUNT(id) AS num_result FROM tbldados";
@@ -50,7 +108,7 @@ include_once("conexao.php");
 		//Quantidade de pagina 
 		$quantidade_pg = ceil($row_pg['num_result'] / $qnt_result_pg);
 		
-		//Limitar os link antes depois
+		//Limitar os link antes depois 
 		$max_links = 2;
 		echo "<a href='listar.php?pagina=1'>Primeira</a> ";
 		
@@ -71,5 +129,7 @@ include_once("conexao.php");
 		echo "<a href='listar.php?pagina=$quantidade_pg'>Ultima</a>";
 		
 		?>		
+</div>
+
 	</body>
 </html>

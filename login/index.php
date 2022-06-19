@@ -36,8 +36,9 @@ include_once("conexao.php")
 				</div>
 
 				<form class="login100-form validate-form" method="POST" action="">
-					<span class="login100-form-title">
+					<span class="login100-form-title"><a href="/employer-tech/menuprincipal/home.php">
 						 Login
+						 </a>
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -57,8 +58,9 @@ include_once("conexao.php")
 					</div>
 					
 					<div class="container-login100-form-btn" >
-						<button class="login100-form-btn" > <!-- /employertech/  !-->
+						<button class="login100-form-btn" ><a href="/employer-tech/menuprincipal/home.php">
 							Login
+							</a>
 						</button>
 					</div>
 
