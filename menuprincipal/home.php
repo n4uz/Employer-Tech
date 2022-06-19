@@ -35,24 +35,28 @@
     </form>
   </div><br><br><br><br><br><br><br>
 
-  <div class="row">
-    <div class="card green color">
-      <font style="font-size: 11px;"><b>HAMBURGUER COM REFRIEGERANTE</b></font>
-      <img class="image" src="images/ovo-removebg-preview.png" alt="ovo" />
-    </div>
+  <div class="row1">
+      <div class="card green color">
+        <font class="y2" face=""> <b>Hamburguer com refrigerante</b> </font>
+        <img class="image" src="https://th.bing.com/th/id/R.6fb889f5a34322bb8fcba2981666864d?rik=NErBd9Acg3Xvjg&pid=ImgRaw&r=0" alt="" />
+        <p class="y3">Um harbumguer de duas carnes, queijo, bacon, tomates e alfaces junto de uma coca-cola de 350ml</p>
+        <a href="#" class="bton">Comprar</a>
+      </div>
 
     <div class="row1">
       <div class="card green color">
-        <font class="h4" face=""> <b>HAMBURGUER COM REFRIGERENTE</b> </font>
+        <font class="y2" face=""> <b>Hamburguer com refrigerante</b> </font>
         <img class="image" src="https://th.bing.com/th/id/R.6fb889f5a34322bb8fcba2981666864d?rik=NErBd9Acg3Xvjg&pid=ImgRaw&r=0" alt="" />
-        <p class="h5">Um harbumguer de duas carnes, queijo, bacon, tomates e alfaces junto de uma coca-cola de 350ml</p>
+        <p class="y3">Um harbumguer de duas carnes, queijo, bacon, tomates e alfaces junto de uma coca-cola de 350ml</p>
+        <a href="#" class="bton">Comprar</a>
       </div>
 
       <div class="row2">
         <div class="card green color">
-          <font class="h4" face=""> <b>HAMBURGUER COM REFRIGERENTE</b> </font>
+          <font class="y2" face=""> <b>Hamburguer com refrigerante</b> </font>
           <img class="image" src="https://th.bing.com/th/id/R.6fb889f5a34322bb8fcba2981666864d?rik=NErBd9Acg3Xvjg&pid=ImgRaw&r=0" alt="" />
-          <p class="h5">Um harbumguer de duas carnes, queijo, bacon, tomates e alfaces junto de uma coca-cola de 350ml</p>
+          <p class="y3">Um harbumguer de duas carnes, queijo, bacon, tomates e alfaces junto de uma coca-cola de 350ml</p>
+          <a href="#" class="bton">Comprar</a>
         </div>
         <script>
           function openRightMenu() {

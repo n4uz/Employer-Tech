@@ -1749,8 +1749,7 @@ body.is-preload #header .content .inner {
 	width: 100%;
 	max-width: 100%;
 	margin-top: 2rem;
-	text-align: center;
-}
+	text-align: center;}
 
 .copyright {
 	position: relative;
@@ -1758,7 +1757,7 @@ body.is-preload #header .content .inner {
 	font-size: 0.6rem;
 	opacity: 0.75;
 	margin-bottom: 0;
-	top: -244px;
+	top: -339px;
 	left: 0px;
 }
 
@@ -1780,7 +1779,7 @@ body.is-preload #footer {
 
 .y {
 	position: relative;
-	top: 287px;
+	top: 344px;
 	left: -240px;
 	font-size: 20px;
 	font-family: sans-serif
@@ -1789,14 +1788,14 @@ body.is-preload #footer {
 .y1 {
 	position: relative;
 	top: 138px;
-	left: 189px;
+	left: 219px;
 	font-size: 20px;
 	font-family: sans-serif
 }
 
 .y2 {
 	position: relative;
-	top: 139px;
+	top: 215px;
 	left: 0px;
 	font-size: 38px;
 
@@ -1817,6 +1816,14 @@ body {
 	top: 0px;
 	background-color: #000000;
 	margin-top: 0px;
+}
+
+.y3{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	font-size: px;
+	font-family: px;
 }
 
 body{width: auto}

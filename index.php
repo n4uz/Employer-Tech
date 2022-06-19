@@ -18,8 +18,6 @@ session_start()
 </head>
 
 <body class="is-preload body">
-	
-
 	<div id="wrapper">
 		<header id="">
 			<div class="">
@@ -32,8 +30,8 @@ session_start()
 			</div>
 		</header>
 
-		<p class="y"><a href="cadastro/index.php">Cadastrar-se	</a></p>
-		<button><p class="y1"><a href="login/index.php">Login</a></p></button>
+		<p class="y"><a href="cadastro/index.php" style="text-align: auto; ">Cadastrar-se	</a></p>
+		<p class="y1"><a href="login/index.php" style="text-align: auto;">Login</a></p>
 
 		<div id="main">
 			<article id="elements">
@@ -47,7 +45,7 @@ session_start()
 			</article>
 		</div>
 
-		<p class="copyright"> Clique em "BEM VINDO" para prosseguir.</p>
+		<p class="copyright">Clique em "BEM VINDO" para prosseguir.</p>
 
 
 	</div>
