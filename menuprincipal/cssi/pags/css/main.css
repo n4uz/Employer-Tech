@@ -637,7 +637,9 @@ aaaaaaa .w3-bar-block .w3-dropdown-hover,
   padding: 10px;
   width: 300px;
   transition: all 0.3s ease-out;
-
+  position: relative;
+  top: -90px;
+  left: -85px;
 }
 
 .image {
