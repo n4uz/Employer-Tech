@@ -224,14 +224,14 @@ hr {
 
 .w3-sidebar {
   height: 100%;
-  width: 200px;
+  width: 290px;
   background-color: #2d3466;
   position: fixed !important;
-  z-index: 1;
+  z-index: 0;
   overflow: auto
 }
 
-aaaaaaa .w3-bar-block .w3-dropdown-hover,
+.w3-bar-block .w3-dropdown-hover,
 .w3-bar-block .w3-dropdown-click {
   width: 100%
 }
@@ -477,20 +477,22 @@ aaaaaaa .w3-bar-block .w3-dropdown-hover,
 
 .w3-animate-right {
   position: relative;
-  animation: animateright 0.4s
+  animation: animateright 0.4s;
 }
 
 @keyframes animateright {
   from {
     right: -300px;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     right: 0;
-    opacity: 1
+    opacity: 1;
   }
 }
+
+
 
 
 .w3-xlarge {
@@ -773,7 +775,7 @@ body.is-preload *:after {
   transition: none !important;
 }
 
-.y2{
+.y2 {
   position: relative;
   left: 0px;
   top: 228px;
@@ -781,8 +783,8 @@ body.is-preload *:after {
   font-family: sans-serif;
 }
 
-.bton{
-  background-color: #502af8; 
+.bton {
+  background-color: #502af8;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -791,13 +793,52 @@ body.is-preload *:after {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.y3{
- font-size: 17px;
- font-family: sans-serif;
- position: relative;
- top: 0px;
- left: 0px;
+.y3 {
+  font-size: 17px;
+  font-family: Poppins-Regular;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.textt {
+  font-family: Helvetica, sans-serif;
+}
+
+.image1{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: 8px;
+  top: 8px;
+  border-color: #FFF;
+}
+.b{
+  width: 291px;
+  height: 150px;
+  background-color: #353b6e;
+  color: #FFF;
+  position: relative;
+  left: px;
+  top: -86px;
+}
+
+.b1{
+  width: 12px;
+  height: 75px;
+  position: relative;
+  left: px;
+  top: px;
+  background-color: #2d3466;
+}
+
+.p{
+  font-size: px;
+  font-family: sans-serif;
+  position: relative;
+  top: px;
+  left: px;
 }

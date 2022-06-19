@@ -129,6 +129,11 @@ session_start();
 							<i class="fa fa-long-arrow-right m-l-5"></i>
 						</a>
 					</div>
+					<div>
+					<a href="/employer-tech/" class="tt"> 
+							Voltar
+						</a>
+					</div>
 				</form>
 			</div>
 		</div>

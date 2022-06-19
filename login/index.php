@@ -73,8 +73,14 @@ include_once("conexao.php")
 						</a>
 					</div>
 
-					<div class="text-center p-t-136">
-						<a class="txt2" href="/employer-tech/cadastro/index.php">
+					<div>
+					<a href="/employer-tech/" class="tt"> 
+							Voltar
+						</a>
+					</div>
+
+					<div class="p-t-136">
+						<a class="txt2 tt1" href="/employer-tech/cadastro/index.php">
 							Criar conta
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
@@ -103,30 +109,6 @@ include_once("conexao.php")
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-
-	<?php
-		$SendPesqUser = filter_input(INPUT_POST, 'SendPesqUser', FILTER_SANITIZE_STRING);
-		if($SendPesqUser){
-			$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-			$senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
-			$result_usuario = "SELECT * FROM tbldados WHERE email, senha LIKE '%$email%, %$senha%'  ";
-			$resultado_usuario = mysqli_query($conn, $result_usuario);
-			while($row_usuario = mysqli_fetch_assoc($resultado_usuario)){
-				echo "E-mail: " . $row_usuario['email'] . "<br>";
-				echo "Senha: " . $row_usuario['senha'] . "<br>";
-			}
-		}
-
-		
-if(mysqli_insert_id($conn)) {
-    $_SESSION['msg'] = "<p style = 'color: green'> Usuário cadastrado com sucesso </p> ";
-    header("Location: /employertech/");
-}else{
-    $_SESSION['msg'] = "<p style = 'color: red'> Usuário não foi cadastrado com sucesso </p> ";
-    header("Location: index.php");
-}
-
-		?>
-
+	
 </body>
 </html>

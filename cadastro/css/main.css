@@ -535,3 +535,18 @@ iframe {
     background: -moz-linear-gradient(-135deg, #70bdf0, #d7a7f3);
     background: linear-gradient(-135deg, #70bdf0, #d7a7f3);
 }
+
+.tt{
+    padding: 12px 35px;
+    background-color: #70bdf0;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    position: relative;
+    left: 324px;
+    top: -820px;
+    font-family: Poppins-Regular;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
