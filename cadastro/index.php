@@ -96,7 +96,7 @@ session_start();
 					</div>
 					<div class="wrap-input100 validate-input" data-validate="Senha é necessário">
 						<span class="label-input100">Senha</span>
-						<input class="input100" type="text" name="pass" placeholder="*************">
+						<input class="input100" type="text" name="senha" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate="É necessário repetir a senha">
@@ -124,9 +124,14 @@ session_start();
 								Cadastrar-se
 							</button>
 						</div>
-						<a href="#" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+						<a href="/employer-tech/login/index.php" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
 							Entrar
 							<i class="fa fa-long-arrow-right m-l-5"></i>
+						</a>
+					</div>
+					<div>
+					<a href="/employer-tech/" class="tt"> 
+							Voltar
 						</a>
 					</div>
 				</form>
