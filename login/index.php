@@ -68,13 +68,13 @@ include_once("conexao.php")
 						<span class="txt1">
 							esqueceu
 						</span>
-						<a class="txt2" href="/employer-tech/cadastro/pesquisar.php">
+						<a class="txt2" href="/employertech/cadastro/pesquisar.php">
 							nome de usuário / Senha?
 						</a>
 					</div>
 
 					<div>
-					<a href="/employer-tech/" class="tt"> 
+					<a href="/employertech/" class="tt"> 
 							Voltar
 						</a>
 					</div>

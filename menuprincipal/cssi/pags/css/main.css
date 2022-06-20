@@ -100,15 +100,8 @@ textarea {
   overflow: auto
 }
 
-<<<<<<< HEAD
 html{size-adjust:100%;size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
-=======
-[type=checkbox],
-[type=radio] {
-  padding: 0
-}
->>>>>>> 219ac44765db612ff59970f0bc05f4b8355997af
 
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
@@ -229,10 +222,10 @@ hr {
 
 .w3-sidebar {
   height: 100%;
-  width: 290px;
+  width: 250px;
   background-color: #2d3466;
   position: fixed !important;
-  z-index: 0;
+  z-index: 10;
   overflow: auto
 }
 
@@ -617,7 +610,7 @@ hr {
 .row {
   display: flex;
   position: absolute;
-  left: 347px;
+  left: 217px;
   align-items: center;
 }
 
@@ -625,7 +618,7 @@ hr {
   border-radius: 10%;
   display: flex;
   position: absolute;
-  left: 438px;
+  left: 378px;
   align-items: center;
 
 }
@@ -634,7 +627,7 @@ hr {
   border-radius: 10%;
   display: flex;
   position: absolute;
-  left: 438px;
+  left: 378px;
   align-items: center;
 
 }
